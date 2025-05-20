@@ -262,6 +262,8 @@ body {
 .content .right .image img{
     width: 100%;
     object-fit: cover;
+    position: relative;
+    top: 152px;
 
 }
 .cricle{
@@ -629,7 +631,12 @@ body {
 
 
 
+
 @media screen and (max-width: 658px)   {
+
+    .content .right .image img{
+        top: 70px;
+    }
 
     .flag__birthday .flag__left {
         transform: rotate(-10deg) translate(-119px,3px);
