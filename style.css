@@ -595,6 +595,8 @@ body {
 .content__letter .right .text__letter{
     margin-top: 60px;
     padding: 20px 15px 10px 15px;
+    position: absolute;
+    z-index: 1;
     font-family: 'Dancing Script', cursive;
     font-size: 1.3rem;
 }
